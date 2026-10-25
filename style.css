@@ -4,3 +4,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:17px;flex-shrink:0}.footer-links{display:flex;flex-wrap:wrap;gap:22px;font-size:12px}.footer-links a{text-decoration:none}.footer-links a:hover{color:var(--teal)}.faq-list a{color:#267d77;text-underline-offset:3px}@media(max-width:700px){.footer-links{gap:15px;font-size:11px}.contact-actions{width:100%}.contact-actions .button{width:100%}}
+
+/* Logo oficial enviada pela Estação Revalida. */
+.brand-logo{width:56px;height:56px;object-fit:contain;display:block;border-radius:50%}.official-mark{width:150px;height:150px;padding:0;background:transparent}.official-mark img{display:block;width:100%;height:100%;object-fit:contain;border-radius:50%}@media(max-width:700px){.brand-logo{width:46px;height:46px}.board-mark.official-mark{width:120px;height:120px}}
