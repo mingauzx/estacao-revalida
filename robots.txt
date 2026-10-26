@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://estacao-revalida.vercel.app/sitemap.xml
