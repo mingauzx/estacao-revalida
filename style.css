@@ -46,3 +46,21 @@ footer{padding-bottom:80px}
 .materials-bottom{display:flex;justify-content:space-between;align-items:center;gap:30px;margin-top:30px}.materials-bottom p{font-size:12px;color:#526c70;max-width:570px;margin:0}.materials-bottom a{flex-shrink:0;margin:0}
 @media(min-width:701px) and (max-width:1100px){.header-inner>nav{gap:14px;font-size:12px}}
 @media(max-width:700px){.mentor-grid{grid-template-columns:1fr;gap:24px;max-width:430px;margin-inline:auto}.mentor-portrait{aspect-ratio:4/3.7}.mentor-portrait img{object-position:center 20%}.mentor-info{padding:22px}.mentor-info h3{font-size:20px;letter-spacing:-.025em}.mentor-info p{font-size:14px}.mentor-info>span{font-size:12px}.material-highlights,.material-previews{grid-template-columns:1fr}.material-highlights{gap:24px}.material-highlights h3{font-size:23px}.preview-heading{padding:18px}.material-previews a{margin:10px}.material-previews figcaption{padding:4px 18px 18px}.materials-bottom{flex-direction:column;align-items:start;gap:18px}}
+
+/* Depoimentos reais: prints legíveis e trechos com a escrita original. */
+.testimonial-real-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.testimonial-grid .testimonial-real-card{padding:0;overflow:hidden;display:flex;flex-direction:column;background:#102e40}
+.testimonial-print{display:flex;flex-direction:column;padding:20px 20px 0;background:#0c2230;color:#e4eeee;text-decoration:none}
+.testimonial-print img{display:block;width:100%;height:300px;object-fit:contain;object-position:center;border-radius:8px;background:#0b171c}
+.testimonial-print>span{display:flex;align-items:center;justify-content:space-between;padding:14px 0;font-size:12px;font-weight:700}
+.testimonial-print:hover>span{color:#dfbf77}
+.testimonial-print:focus-visible{outline:3px solid #dfbf77;outline-offset:-4px}
+.testimonial-copy{padding:26px;display:flex;flex:1;flex-direction:column}
+.testimonial-topic{font-size:10px;font-weight:700;letter-spacing:1.4px;color:#dfbf77;margin:0 0 16px}
+.testimonial-real-card blockquote{font-size:18px;line-height:1.65;margin-bottom:22px}
+.testimonial-real-card figcaption{margin-top:auto;line-height:1.6}
+.testimonials-bottom{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:26px}
+.testimonials-bottom p{font-size:12px;color:#526c70;margin:0;max-width:450px}
+.testimonials-bottom .text-link{margin:0;font-size:13px;flex-shrink:0}
+@media(max-width:1000px){.testimonial-real-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.testimonial-real-grid{grid-template-columns:1fr;gap:22px}.testimonial-print img{height:auto;max-height:420px}.testimonial-copy{padding:24px}.testimonials-bottom{flex-direction:column;align-items:flex-start;gap:16px}}
